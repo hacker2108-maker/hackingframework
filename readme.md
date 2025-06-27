@@ -208,23 +208,19 @@
 
 ## Step : 1 Download hackingtool
 
-    git clone https://github.com/Z4nzu/hackingtool.git
+    git clone https://github.com/hacker2108-maker/hackingframework.git
 
 ## Step : 2 Give Permission to hackingtool
     
-    chmod -R 755 hackingtool  
+    chmod -R 755 hackingframework
 
 ## Step : 3 Move to hackingtool directory
 
     cd hackingtool
 
-## Step : 4 Run hackingtool
-    
-    sudo bash install.sh
-
 ## Step : 5 For installing tools in directory
 
-    sudo hackingtool
+    sudo hackingframework
 
 
 ## Use image with Docker
@@ -246,7 +242,7 @@ docker-compose up -d
 
 - Get into the container 
 ```bash
-docker exec -it hackingtool bash
+docker exec -it hackingframework bash
 ```
 **OUTPUT:**
 ```bash
