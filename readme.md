@@ -3,7 +3,7 @@
 
 #### Install Kali Linux in WIndows10 Without VirtualBox or use Docker
 
-## Update Available V1.2.0 🚀 
+## Update Available V1.2.1 🚀 
 - [✔] Installation Bug Fixed
 - [x] Added New Tools 
     - [x] Reverse Engineering
@@ -16,7 +16,7 @@
 
 
 
-# Hackingtool Menu 🧰
+#  Menu 🧰
 - [Anonymously Hiding Tools](#anonymously-hiding-tools)
 - [Information gathering tools](#information-gathering-tools)
 - [Wordlist Generator](#wordlist-generator)
