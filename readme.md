@@ -210,54 +210,26 @@
 
     git clone https://github.com/hacker2108-maker/hackingframework.git
 
-## Step : 2 Give Permission to hackingtool
+## Step : 2 Move to directory
     
-    chmod -R 755 hackingframework
-
-## Step : 3 Move to hackingtool directory
-
     cd hackingtool
+    
 
-## Step : 5 For installing tools in directory
+## Step : 3 give permision
 
-    sudo hackingframework
+    chmod 777 hackingframework
 
+## Step : 4 unzip the zip file
 
-## Use image with Docker
+    unzip the zip file buddy
 
-### Create Docker Image
-- Create the docker image 
-
-```bash
-docker buitl -t vgpastor/hackingtool .
-```
-
-### Run as container 
-
-```bash
-docker-compose up -d
-```
+### Run the tools as root
+    sudo su
 
 ### Interact with terminal
 
-- Get into the container 
-```bash
-docker exec -it hackingframework bash
+- python3 hackingframework.py
 ```
-**OUTPUT:**
-```bash
-Select Best Option : 
-
-              [1] Kali Linux / Parrot-Os (apt)
-              [2] Arch Linux (pacman)
-              [0] Exit 
-```
-Enter the options and continue.
-
-- If need open other ports you can edit the docker-compose.yml file
-- Volumes are mounted in the container to persist data and can share files between the host and the container
-
-
 #### Thanks to original Author of the tools used in hackingtool
 <h4>Please Don't Use for illegal Activity</h4>
 
